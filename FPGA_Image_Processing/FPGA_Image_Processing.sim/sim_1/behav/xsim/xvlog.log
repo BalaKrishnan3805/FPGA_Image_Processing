@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/rgb_to_luma.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb_to_luma
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/image_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_processor

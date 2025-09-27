@@ -1,0 +1,24 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/xillinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot image_processor_behav xil_defaultlib.image_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/clamp_0_255.v" Line 1. Module clamp_0_255 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/clamp_0_255.v" Line 1. Module clamp_0_255 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/clamp_0_255.v" Line 1. Module clamp_0_255 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/rgb_to_luma.v" Line 1. Module rgb_to_luma doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/clamp_0_255.v" Line 1. Module clamp_0_255 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/clamp_0_255.v" Line 1. Module clamp_0_255 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/clamp_0_255.v" Line 1. Module clamp_0_255 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/verilog_11/FPGA_Image_Processing/FPGA_Image_Processing.srcs/sources_1/new/rgb_to_luma.v" Line 1. Module rgb_to_luma doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clamp_0_255
+Compiling module xil_defaultlib.rgb_to_luma
+Compiling module xil_defaultlib.image_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot image_processor_behav

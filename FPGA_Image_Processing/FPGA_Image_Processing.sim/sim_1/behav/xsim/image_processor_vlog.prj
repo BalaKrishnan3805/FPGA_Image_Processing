@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../xillinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../FPGA_Image_Processing.srcs/sources_1/new/clamp_0_255.v" \
+"../../../../FPGA_Image_Processing.srcs/sources_1/new/rgb_to_luma.v" \
+"../../../../FPGA_Image_Processing.srcs/sources_1/new/image_processor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
